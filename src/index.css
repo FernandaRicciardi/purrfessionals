@@ -1,13 +1,227 @@
+/* font-family: 'Chelsea Market', cursive;
+font-family: 'Grandstander', cursive;
+font-family: 'Hachi Maru Pop', cursive;
+font-family: 'Old Standard TT', serif;
+font-family: 'Pacifico', cursive; */
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  width: 90%;
+  background-color: #cbc0d3;
+  color: #3b414b;
+  margin: auto;
+  padding: 0;
+  font-size: 1.3rem;
+  font-family: 'Chelsea Market', cursive; 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/***** HEADER *****/
+.menu {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.menu_logo {
+  width: 250px;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  margin-left: 40px;
+  padding: 15px;
+  list-style: none;
+  cursor: pointer;
+}
+
+li:first-child {
+  margin-left: 0;
+}
+
+li:last-child {
+  text-align: center;
+  border-radius: 10px;
+  background-color: #FEEAFA;
+  padding: 15px;
+  border: 1px solid #575F6D;
+}
+
+li:hover {
+  transform: translate3d(0, -2px, 0);
+}
+
+.header1,
+.footer p {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 15px;
+  background-color: #DEE2FF;
+  border: 2px dashed #8E9AAF;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.header2 {
+  background-color: #555E6B;
+  color: #EBD7E1;
+  letter-spacing: 2px;
+  font-family: 'Chelsea Market', cursive;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 40px;
+  margin-top: 5px;
+  word-spacing: 3px;
+}
+
+/***** CARDS *****/
+
+.btn_cart {
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-family: 'Old Standard TT', serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #EFD3D7;
+  border: 1px solid #575F6D;
+}
+
+.btn_cart:hover {
+  position: relative;
+  bottom: 3px;
+  background-color: #DEE2FF;
+}
+
+.area_catCard {
+  clear: right;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cat_card,
+.cat_card_cart {
+  position: relative;
+  background-color: #FEEAFA;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #8E9AAF;
+  width: 300px;
+  font-family: 'Old Standard TT', serif;
+  height: 580px;
+  margin-bottom: 20px;
+}
+
+.cat_card h2,
+.cat_card_cart h2 {
+  font-size: 1.5rem;
+  margin-bottom: 5px; 
+}
+
+.cat_card h4,
+.cat_card_cart h4 {
+  margin-top: 0;
+}
+
+.cat_card h4,
+.cat_card p,
+.cat_card_cart h4
+.cat_card_cart p {
+  font-size: 1.2rem;
+}
+
+.cat_card img,
+.cat_card_cart img {
+  width: 280px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid #8E9AAF;
+}
+
+.review {
+  font-family: 'Grandstander', cursive;
+  font-weight: bold;
+}
+
+span {
+  font-size: 15px;
+}
+
+.btn_card,
+.btn_card_cart {
+  position: absolute;
+  bottom: 15px;
+  transform: translateX(-50%);
+  margin-right: 15px;
+  cursor: pointer;
+  font-family: 'Old Standard TT', serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #EFD3D7;
+  border: 1px solid #575F6D;
+}
+
+.btn_card:hover {
+  bottom: 18px;
+  background-color: #DEE2FF;
+}
+ 
+ /***** FOOTER *****/
+.footer p {
+  font-size: 1rem;
+}
+
+.footer a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.footer a:hover {
+  color: #e81224;
+  transform: translate3d(0, -2px, 0);
+}
+
+/***** IN THE CART *****/
+.area_catCard_cart {
+  clear: right;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cat_card_cart {
+  height: 440px;
+  justify-content: space-evenly;
+}
+
+.btn_card_cart {
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #BCB7CA;
+  color: #3B414B;
+  border: 1px solid #8E9AAF;
+}
+
+.btn_card_cart:hover {
+  bottom: 18px;
+  background-color: #DEE2FF;
+}
+
+.teste {
+  margin-top: 50px;
 }
