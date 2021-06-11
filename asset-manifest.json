@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/purrfessionals/static/css/main.4e8702d4.chunk.css",
+    "main.js": "/purrfessionals/static/js/main.f9c0a2c2.chunk.js",
+    "main.js.map": "/purrfessionals/static/js/main.f9c0a2c2.chunk.js.map",
+    "runtime-main.js": "/purrfessionals/static/js/runtime-main.12875c1e.js",
+    "runtime-main.js.map": "/purrfessionals/static/js/runtime-main.12875c1e.js.map",
+    "static/js/2.0b501b37.chunk.js": "/purrfessionals/static/js/2.0b501b37.chunk.js",
+    "static/js/2.0b501b37.chunk.js.map": "/purrfessionals/static/js/2.0b501b37.chunk.js.map",
+    "index.html": "/purrfessionals/index.html",
+    "static/css/main.4e8702d4.chunk.css.map": "/purrfessionals/static/css/main.4e8702d4.chunk.css.map",
+    "static/js/2.0b501b37.chunk.js.LICENSE.txt": "/purrfessionals/static/js/2.0b501b37.chunk.js.LICENSE.txt",
+    "static/media/logo2.0f2f6c6b.png": "/purrfessionals/static/media/logo2.0f2f6c6b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.12875c1e.js",
+    "static/js/2.0b501b37.chunk.js",
+    "static/css/main.4e8702d4.chunk.css",
+    "static/js/main.f9c0a2c2.chunk.js"
+  ]
+}
